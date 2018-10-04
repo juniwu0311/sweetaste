@@ -1,0 +1,208 @@
+---
+title: 結帳-1-運送
+layout: ./source/layout.ejs
+engine: ejs
+---
+
+<section class="d-sm-none">
+
+  <div class="text-secondary font-weight-bold">
+    <div class="bg-primary ">
+      <div class="row">
+        <div class="col-6">
+          <div class="h1 m-0 py-3 px-3">運送</div>
+        </div>
+        <div class="col-6 d-flex align-items-center">
+
+          <div>
+            <i class="material-icons">radio_button_checked</i>
+          </div>
+          <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+          <div>
+            <i class="material-icons text-info">radio_button_unchecked</i>
+          </div>
+          <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+          <div class="pr-3">
+            <i class="material-icons text-info">radio_button_unchecked</i>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <form class="text-20">
+      <div class="bg-primary px-3 pb-3">
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="lastname">姓氏</label>
+            <input type="text" class="form-control p-2 bg-secondary text-primary" id="lastname" placeholder="王">
+          </div>
+          <div class="form-group col-6">
+            <label for="firstname">名字</label>
+            <input type="text" class="form-control p-2 bg-secondary text-primary" id="firstname" placeholder="小明">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="tel">電話</label>
+          <input type="tel" class="form-control p-2 bg-secondary text-primary" id="tel" placeholder="0912-345-678">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="City">地址</label>
+            <input type="text" class="form-control p-2 bg-secondary text-primary" id="City" placeholder="高雄市">
+          </div>
+          <div class="form-group col-6 text-primary">
+            <label for="State">地址</label>
+            <input type="text" class="form-control p-2 bg-secondary text-primary" id="State" placeholder="新興區">
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control p-2 bg-secondary text-primary" id="inputAddress" placeholder="幸福路 520 號">
+        </div>
+      </div>
+
+      <a href="checkout-2.html" class="btn btn-success btn-lg btn-block text-primary text-24 font-weight-bold">下一步</a>
+
+    </form>
+  </div>
+
+</section>
+
+
+<div class=" container mb-sm-3 mb-md-6">
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-md-7 col-lg-6 d-none d-sm-block">
+      <div class="text-secondary font-weight-bold">
+        <div class="bg-primary ">
+          <div class="row">
+            <div class="col-6">
+              <div class="h1 m-0 py-3 px-4">運送</div>
+            </div>
+            <div class="col-6 d-flex align-items-center">
+
+              <div>
+                <i class="material-icons">radio_button_checked</i>
+              </div>
+              <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+              <div>
+                <i class="material-icons text-info">radio_button_unchecked</i>
+              </div>
+              <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+              <div class="pr-4">
+                <i class="material-icons text-info">radio_button_unchecked</i>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <form class="text-20">
+          <div class="bg-primary px-4 pb-3">
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="lastname">姓氏</label>
+                <input type="text" class="form-control p-2 bg-secondary text-primary" id="lastname" placeholder="王">
+              </div>
+              <div class="form-group col-6">
+                <label for="firstname">名字</label>
+                <input type="text" class="form-control p-2 bg-secondary text-primary" id="firstname" placeholder="小明">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tel">電話</label>
+              <input type="tel" class="form-control p-2 bg-secondary text-primary" id="tel" placeholder="0912-345-678">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="City">地址</label>
+                <input type="text" class="form-control p-2 bg-secondary text-primary" id="City" placeholder="高雄市">
+              </div>
+              <div class="form-group col-6 text-primary">
+                <label for="State">地址</label>
+                <input type="text" class="form-control p-2 bg-secondary text-primary" id="State" placeholder="新興區">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control p-2 bg-secondary text-primary" id="inputAddress" placeholder="幸福路 520 號">
+            </div>
+          </div>
+
+
+          <a href="checkout-2.html" class="btn btn-success btn-lg btn-block text-primary text-24 font-weight-bold">下一步</a>
+
+        </form>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-5 col-lg-4 text-info d-none d-md-block">
+
+      <section>
+        <div class="bg-secondary text-center text-24 font-weight-bold py-2">
+          訂單摘要
+        </div>
+
+        <div class="p-2 border border-secondary">
+          <div class="d-flex justify-content-between">
+            <span>小計</span>
+            <span>NT$ 2,700</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>運費</span>
+            <span>NT$ 300</span>
+          </div>
+          <div class="d-flex justify-content-between text-20 font-weight-bold mt-2">
+            <span>總計</span>
+            <span>NT$ 3,000</span>
+          </div>
+        </div>
+      </section>
+      <section class="mt-2">
+        <div class="bg-secondary text-center text-24 font-weight-bold py-2">
+          購物清單
+        </div>
+
+        <div class="p-2 border border-secondary">
+
+          <div class="row">
+            <div class="col-6">
+              <div class="bg-cover" style="background-image:url(https://bit.ly/2QvsT63); height:100%;"></div>
+            </div>
+            <div class="col-6 py-3">
+              <div>焦糖馬卡龍 (2)</div>
+              <div class="text-20 font-weight-bold">NT$ 450</div>
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="col-6">
+              <div class="bg-cover" style="background-image:url(https://bit.ly/2zBDAxX); height:100%;"></div>
+            </div>
+            <div class="col-6 py-3">
+              <div>焦糖馬卡龍 (2)</div>
+              <div class="text-20 font-weight-bold">NT$ 450</div>
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="col-6">
+              <div class="bg-cover" style="background-image:url(https://bit.ly/2zKOP7w); height:100%;"></div>
+            </div>
+            <div class="col-6 py-3">
+              <div>焦糖馬卡龍 (2)</div>
+              <div class="text-20 font-weight-bold">NT$ 450</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+</div>
